@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+       skill_devops00:
+               container_name: skillbox-flatris
+               build: .
+               ports:
+                       - "0.0.0.0:3000:3000"
